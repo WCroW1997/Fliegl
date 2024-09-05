@@ -244,7 +244,7 @@ h6 {
 	}
 }
 
-// =================== product page ========================
+// =================== catalog page ========================
 
 .productWrapper {
 	// .productWrapper__image
@@ -375,6 +375,56 @@ h6 {
 			font-size: 24px;
 			text-transform: uppercase;
 		}
+	}
+}
+
+// =============== product page ====================
+
+.productInfo {
+	// .productInfo__container
+
+	&__container {
+		display: flex;
+		align-items: center;
+		gap: 40px;
+	}
+
+	// .productInfo__title
+
+	&__title {
+		margin-bottom: 15px;
+	}
+}
+
+.download {
+	background: #dedede;
+	padding: 55px 0;
+
+	// .download__ling
+
+	&__ling {
+		display: flex;
+		gap: 10px;
+		align-items: center;
+	}
+
+	// .download__text
+
+	&__text {
+		p {
+			color: #000;
+		}
+		h3 {
+			color: #9ec013;
+			margin-bottom: 5px;
+		}
+	}
+}
+
+.gallery {
+	// .gallery__container
+
+	&__container {
 	}
 }
 
