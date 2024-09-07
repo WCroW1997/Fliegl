@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>product</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="main.css">
 </head>
 
@@ -78,8 +79,29 @@
             </div>
         </section>
         <section class="download">
-            <div class="container download__container">
-                <a href="#" class="download__ling">
+            <div class=" download__container">
+                <a href="#" class="download__link">
+                    <img src="./img/PDF.svg" alt="">
+                    <div class="download__text">
+                        <h3>Brochure curtain and platform trailers</h3>
+                        <p>PDF-Datei , 3 MB</p>
+                    </div>
+                </a>
+                <a href="#" class="download__link">
+                    <img src="./img/PDF.svg" alt="">
+                    <div class="download__text">
+                        <h3>Brochure curtain and platform trailers</h3>
+                        <p>PDF-Datei , 3 MB</p>
+                    </div>
+                </a>
+                <a href="#" class="download__link">
+                    <img src="./img/PDF.svg" alt="">
+                    <div class="download__text">
+                        <h3>Brochure curtain and platform trailers</h3>
+                        <p>PDF-Datei , 3 MB</p>
+                    </div>
+                </a>
+                <a href="#" class="download__link">
                     <img src="./img/PDF.svg" alt="">
                     <div class="download__text">
                         <h3>Brochure curtain and platform trailers</h3>
@@ -110,8 +132,25 @@
         </section>
         <section class="gallery">
             <div class="container gallery__container">
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="./img/image 17.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/image 19.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/image 20.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/image 20.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/image 20.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/image 20.jpg" alt=""></div>
 
+                    </div>
+                    <!-- If we need navigation buttons -->
+
+                </div>
             </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
         </section>
     </main>
 
@@ -132,6 +171,7 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./main.js"></script>
 </body>
 

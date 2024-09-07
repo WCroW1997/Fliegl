@@ -249,7 +249,15 @@ h6 {
   background: #dedede;
   padding: 55px 0;
 }
-.download__ling {
+.download__container {
+  padding: 0 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.download__link {
   display: flex;
   gap: 10px;
   align-items: center;
@@ -262,6 +270,33 @@ h6 {
   margin-bottom: 5px;
 }
 
+.gallery {
+  position: relative;
+  padding: 70px 0;
+}
+.swiper-wrapper {
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 100%;
+}
+
+.swiper-button-prev {
+  background: url(./img/Back.svg) center center;
+  left: 10%;
+}
+
+.swiper-button-next {
+  background: url(./img/Forward.svg) center center;
+  right: 10%;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  display: none;
+}
+
 @media screen and (max-width: 1240px) {
   .container {
     width: 95%;
@@ -269,6 +304,12 @@ h6 {
   .header__list {
     gap: 5px;
     padding: 4px;
+  }
+  .swiper-button-prev {
+    left: 3%;
+  }
+  .swiper-button-next {
+    right: 3%;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -425,6 +466,9 @@ h6 {
   .effective__box p {
     text-align: center;
     font-size: 16px;
+  }
+  .productInfo__container {
+    flex-direction: column;
   }
 }
 @media screen and (max-width: 425px) {
